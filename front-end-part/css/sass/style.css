@@ -1,0 +1,661 @@
+@keyframes show {
+  0% {
+    height: 0rem;
+    top: 1.48rem; }
+  1% {
+    height: 0.0687964016rem;
+    top: 1.4748050643rem; }
+  2% {
+    height: 0.2499716245rem;
+    top: 1.4610594012rem; }
+  3% {
+    height: 0.510079412rem;
+    top: 1.4414621174rem; }
+  4% {
+    height: 0.8212269339rem;
+    top: 1.4185087374rem; }
+  5% {
+    height: 1.1606425169rem;
+    top: 1.3943758555rem; }
+  6% {
+    height: 1.510179301rem;
+    top: 1.3708506917rem; }
+  7% {
+    height: 1.855786911rem;
+    top: 1.3493004551rem; }
+  8% {
+    height: 2.1869764559rem;
+    top: 1.3306749682rem; }
+  9% {
+    height: 2.4962982082rem;
+    top: 1.3155352895rem; }
+  10% {
+    height: 2.7788461673rem;
+    top: 1.3041009655rem; }
+  11% {
+    height: 3.031799355rem;
+    top: 1.2963089299rem; }
+  12% {
+    height: 3.2540060662rem;
+    top: 1.2918778187rem; }
+  13% {
+    height: 3.4456143557rem;
+    top: 1.2903724511rem; }
+  14% {
+    height: 3.6077497123rem;
+    top: 1.2912643402rem; }
+  15% {
+    height: 3.7422390706rem;
+    top: 1.2939852285rem; }
+  16% {
+    height: 3.8513789886rem;
+    top: 1.2979717319rem; }
+  17% {
+    height: 3.9377448831rem;
+    top: 1.3027001469rem; }
+  18% {
+    height: 4.004037616rem;
+    top: 1.3077113067rem; }
+  19% {
+    height: 4.0529633903rem;
+    top: 1.3126260272rem; }
+  20% {
+    height: 4.0871428018rem;
+    top: 1.3171521678rem; }
+  21% {
+    height: 4.1090449365rem;
+    top: 1.3210846475rem; }
+  22% {
+    height: 4.1209425819rem;
+    top: 1.3242999178rem; }
+  23% {
+    height: 4.124884879rem;
+    top: 1.3267464271rem; }
+  24% {
+    height: 4.122684061rem;
+    top: 1.328432539rem; }
+  25% {
+    height: 4.1159132792rem;
+    top: 1.3294132156rem; }
+  26% {
+    height: 4.1059128784rem;
+    top: 1.3297765777rem; }
+  27% {
+    height: 4.093802853rem;
+    top: 1.3296312227rem; }
+  28% {
+    height: 4.0804995591rem;
+    top: 1.3290949453rem; }
+  29% {
+    height: 4.0667350917rem;
+    top: 1.3282852802rem; }
+  30% {
+    height: 4.0530780329rem;
+    top: 1.3273120787rem; }
+  31% {
+    height: 4.0399545501rem;
+    top: 1.3262721585rem; }
+  32% {
+    height: 4.0276690587rem;
+    top: 1.3252459245rem; }
+  33% {
+    height: 4.0164238719rem;
+    top: 1.3242957546rem; }
+  34% {
+    height: 4.006337434rem;
+    top: 1.3234658769rem; }
+  35% {
+    height: 3.9974608792rem;
+    top: 1.3227834287rem; }
+  36% {
+    height: 3.9897927757rem;
+    top: 1.322260376rem; }
+  37% {
+    height: 3.9832920107rem;
+    top: 1.3218959896rem; }
+  38% {
+    height: 3.9778888432rem;
+    top: 1.3216795999rem; }
+  39% {
+    height: 3.9734942052rem;
+    top: 1.3215933973rem; }
+  40% {
+    height: 3.9700073726rem;
+    top: 1.3216150884rem; }
+  41% {
+    height: 3.967322148rem;
+    top: 1.3217202715rem; }
+  42% {
+    height: 3.9653317157rem;
+    top: 1.3218844392rem; }
+  43% {
+    height: 3.9639323303rem;
+    top: 1.3220845599rem; }
+  44% {
+    height: 3.9630260042rem;
+    top: 1.3223002289rem; }
+  45% {
+    height: 3.9625223468rem;
+    top: 1.3225144058rem; }
+  46% {
+    height: 3.9623397041rem;
+    top: 1.3227137811rem; }
+  47% {
+    height: 3.9624057291rem;
+    top: 1.3228888271rem; }
+  48% {
+    height: 3.9626575062rem;
+    top: 1.323033597rem; }
+  49% {
+    height: 3.9630413313rem;
+    top: 1.3231453393rem; }
+  50% {
+    height: 3.9635122418rem; }
+  51% {
+    height: 3.9640333708rem; }
+  52% {
+    height: 3.9645751915rem; }
+  53% {
+    height: 3.9651147025rem; }
+  54% {
+    height: 3.9656345962rem; }
+  55% {
+    height: 3.9661224417rem; }
+  56% {
+    height: 3.9665699055rem; }
+  57% {
+    height: 3.9669720269rem; }
+  58% {
+    height: 3.9673265589rem; }
+  59% {
+    height: 3.9676333793rem; }
+  60% {
+    height: 3.9678939766rem; }
+  61% {
+    height: 3.9681110068rem; }
+  62% {
+    height: 3.9682879202rem; }
+  63% {
+    height: 3.9684286539rem; }
+  64% {
+    height: 3.9685373815rem; }
+  65% {
+    height: 3.9686183178rem; }
+  66% {
+    height: 3.9686755688rem; }
+  67% {
+    height: 3.9687130223rem; }
+  68% {
+    height: 3.9687342726rem; }
+  69% {
+    height: 3.9687425728rem; }
+  70% {
+    height: 3.9687408106rem; }
+  71% {
+    height: 3.9687315018rem; }
+  72% {
+    height: 3.9687167977rem; }
+  73% {
+    height: 3.968698503rem; }
+  74% {
+    height: 3.9686781007rem; }
+  75% {
+    height: 3.9686567812rem; }
+  76% {
+    height: 3.9686354748rem; }
+  77% {
+    height: 3.9686148841rem; }
+  78% {
+    height: 3.9685955164rem; }
+  79% {
+    height: 3.9685777145rem; }
+  80% {
+    height: 3.9685616859rem; }
+  81% {
+    height: 3.9685475282rem; }
+  82% {
+    height: 3.9685352537rem; }
+  83% {
+    height: 3.9685248091rem; }
+  84% {
+    height: 3.9685160934rem; }
+  85% {
+    height: 3.968508973rem; }
+  86% {
+    height: 3.9685032944rem; }
+  87% {
+    height: 3.9684988934rem; }
+  88% {
+    height: 3.9684956039rem; }
+  89% {
+    height: 3.9684932634rem; }
+  90% {
+    height: 3.9684917176rem; }
+  91% {
+    height: 3.9684908237rem; }
+  92% {
+    height: 3.968490452rem; }
+  93% {
+    height: 3.9684904874rem; }
+  94% {
+    height: 3.9684908293rem; }
+  95% {
+    height: 3.9684913914rem; }
+  96% {
+    height: 3.9684921015rem; }
+  97% {
+    height: 3.9684928998rem; }
+  98% {
+    height: 3.9684937383rem; }
+  99% {
+    height: 3.9684945795rem; }
+  100% {
+    height: 3.9684953948rem; } }
+@keyframes mask-log {
+  0% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)); }
+  1% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.005)); }
+  2% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.01)); }
+  3% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.015)); }
+  4% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.02)); }
+  5% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.025)); }
+  6% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.03)); }
+  7% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.035)); }
+  8% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.04)); }
+  9% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.045)); }
+  10% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.05)); }
+  11% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.055)); }
+  12% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.06)); }
+  13% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.065)); }
+  14% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.07)); }
+  15% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.075)); }
+  16% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.08)); }
+  17% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.085)); }
+  18% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.09)); }
+  19% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.095)); }
+  20% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)); }
+  21% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.105)); }
+  22% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.11)); }
+  23% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.115)); }
+  24% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.12)); }
+  25% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.125)); }
+  26% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.13)); }
+  27% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.135)); }
+  28% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.14)); }
+  29% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.145)); }
+  30% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)); }
+  31% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.155)); }
+  32% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.16)); }
+  33% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.165)); }
+  34% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.17)); }
+  35% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.175)); }
+  36% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.18)); }
+  37% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.185)); }
+  38% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.19)); }
+  39% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.195)); }
+  40% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)); }
+  41% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.205)); }
+  42% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.21)); }
+  43% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.215)); }
+  44% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.22)); }
+  45% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.225)); }
+  46% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.23)); }
+  47% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.235)); }
+  48% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.24)); }
+  49% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.245)); }
+  50% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.25)); }
+  51% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.255)); }
+  52% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.26)); }
+  53% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.265)); }
+  54% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.27)); }
+  55% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.275)); }
+  56% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.28)); }
+  57% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.285)); }
+  58% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.29)); }
+  59% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.295)); }
+  60% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3)); }
+  61% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.305)); }
+  62% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.31)); }
+  63% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.315)); }
+  64% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.32)); }
+  65% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.325)); }
+  66% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.33)); }
+  67% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.335)); }
+  68% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.34)); }
+  69% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.345)); }
+  70% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.35)); }
+  71% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.355)); }
+  72% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.36)); }
+  73% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.365)); }
+  74% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.37)); }
+  75% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.375)); }
+  76% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.38)); }
+  77% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.385)); }
+  78% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.39)); }
+  79% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.395)); }
+  80% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4)); }
+  81% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.405)); }
+  82% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.41)); }
+  83% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.415)); }
+  84% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.42)); }
+  85% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.425)); }
+  86% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.43)); }
+  87% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.435)); }
+  88% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.44)); }
+  89% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.445)); }
+  90% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.45)); }
+  91% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.455)); }
+  92% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.46)); }
+  93% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.465)); }
+  94% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.47)); }
+  95% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.475)); }
+  96% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.48)); }
+  97% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.485)); }
+  98% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.49)); }
+  99% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.495)); }
+  100% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)); } }
+@keyframes mask-sign-up {
+  0% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5)); }
+  1% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0033333333), rgba(0, 0, 0, 0.5)); }
+  2% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0066666667), rgba(0, 0, 0, 0.5)); }
+  3% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.5)); }
+  4% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0133333333), rgba(0, 0, 0, 0.5)); }
+  5% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0166666667), rgba(0, 0, 0, 0.5)); }
+  6% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.02), rgba(0, 0, 0, 0.5)); }
+  7% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0233333333), rgba(0, 0, 0, 0.5)); }
+  8% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0266666667), rgba(0, 0, 0, 0.5)); }
+  9% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.03), rgba(0, 0, 0, 0.5)); }
+  10% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0333333333), rgba(0, 0, 0, 0.5)); }
+  11% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0366666667), rgba(0, 0, 0, 0.5)); }
+  12% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.04), rgba(0, 0, 0, 0.5)); }
+  13% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0433333333), rgba(0, 0, 0, 0.5)); }
+  14% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0466666667), rgba(0, 0, 0, 0.5)); }
+  15% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.5)); }
+  16% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0533333333), rgba(0, 0, 0, 0.5)); }
+  17% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0566666667), rgba(0, 0, 0, 0.5)); }
+  18% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.5)); }
+  19% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0633333333), rgba(0, 0, 0, 0.5)); }
+  20% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0666666667), rgba(0, 0, 0, 0.5)); }
+  21% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.5)); }
+  22% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0733333333), rgba(0, 0, 0, 0.5)); }
+  23% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0766666667), rgba(0, 0, 0, 0.5)); }
+  24% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.5)); }
+  25% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0833333333), rgba(0, 0, 0, 0.5)); }
+  26% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0866666667), rgba(0, 0, 0, 0.5)); }
+  27% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.09), rgba(0, 0, 0, 0.5)); }
+  28% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0933333333), rgba(0, 0, 0, 0.5)); }
+  29% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.0966666667), rgba(0, 0, 0, 0.5)); }
+  30% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)); }
+  31% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1033333333), rgba(0, 0, 0, 0.5)); }
+  32% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1066666667), rgba(0, 0, 0, 0.5)); }
+  33% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.11), rgba(0, 0, 0, 0.5)); }
+  34% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1133333333), rgba(0, 0, 0, 0.5)); }
+  35% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1166666667), rgba(0, 0, 0, 0.5)); }
+  36% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.5)); }
+  37% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1233333333), rgba(0, 0, 0, 0.5)); }
+  38% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1266666667), rgba(0, 0, 0, 0.5)); }
+  39% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.5)); }
+  40% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1333333333), rgba(0, 0, 0, 0.5)); }
+  41% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1366666667), rgba(0, 0, 0, 0.5)); }
+  42% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.5)); }
+  43% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1433333333), rgba(0, 0, 0, 0.5)); }
+  44% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1466666667), rgba(0, 0, 0, 0.5)); }
+  45% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.5)); }
+  46% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1533333333), rgba(0, 0, 0, 0.5)); }
+  47% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1566666667), rgba(0, 0, 0, 0.5)); }
+  48% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.16), rgba(0, 0, 0, 0.5)); }
+  49% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1633333333), rgba(0, 0, 0, 0.5)); }
+  50% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1666666667), rgba(0, 0, 0, 0.5)); }
+  51% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.17), rgba(0, 0, 0, 0.5)); }
+  52% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1733333333), rgba(0, 0, 0, 0.5)); }
+  53% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1766666667), rgba(0, 0, 0, 0.5)); }
+  54% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.5)); }
+  55% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1833333333), rgba(0, 0, 0, 0.5)); }
+  56% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1866666667), rgba(0, 0, 0, 0.5)); }
+  57% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.19), rgba(0, 0, 0, 0.5)); }
+  58% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1933333333), rgba(0, 0, 0, 0.5)); }
+  59% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.1966666667), rgba(0, 0, 0, 0.5)); }
+  60% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)); }
+  61% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2033333333), rgba(0, 0, 0, 0.5)); }
+  62% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2066666667), rgba(0, 0, 0, 0.5)); }
+  63% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.21), rgba(0, 0, 0, 0.5)); }
+  64% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2133333333), rgba(0, 0, 0, 0.5)); }
+  65% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2166666667), rgba(0, 0, 0, 0.5)); }
+  66% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.22), rgba(0, 0, 0, 0.5)); }
+  67% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2233333333), rgba(0, 0, 0, 0.5)); }
+  68% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2266666667), rgba(0, 0, 0, 0.5)); }
+  69% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.23), rgba(0, 0, 0, 0.5)); }
+  70% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2333333333), rgba(0, 0, 0, 0.5)); }
+  71% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2366666667), rgba(0, 0, 0, 0.5)); }
+  72% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.24), rgba(0, 0, 0, 0.5)); }
+  73% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2433333333), rgba(0, 0, 0, 0.5)); }
+  74% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2466666667), rgba(0, 0, 0, 0.5)); }
+  75% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)); }
+  76% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2533333333), rgba(0, 0, 0, 0.5)); }
+  77% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2566666667), rgba(0, 0, 0, 0.5)); }
+  78% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.5)); }
+  79% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2633333333), rgba(0, 0, 0, 0.5)); }
+  80% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2666666667), rgba(0, 0, 0, 0.5)); }
+  81% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.27), rgba(0, 0, 0, 0.5)); }
+  82% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2733333333), rgba(0, 0, 0, 0.5)); }
+  83% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2766666667), rgba(0, 0, 0, 0.5)); }
+  84% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.5)); }
+  85% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2833333333), rgba(0, 0, 0, 0.5)); }
+  86% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2866666667), rgba(0, 0, 0, 0.5)); }
+  87% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.29), rgba(0, 0, 0, 0.5)); }
+  88% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2933333333), rgba(0, 0, 0, 0.5)); }
+  89% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.2966666667), rgba(0, 0, 0, 0.5)); }
+  90% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)); }
+  91% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.3033333333), rgba(0, 0, 0, 0.5)); }
+  92% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.3066666667), rgba(0, 0, 0, 0.5)); }
+  93% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.31), rgba(0, 0, 0, 0.5)); }
+  94% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.3133333333), rgba(0, 0, 0, 0.5)); }
+  95% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.3166666667), rgba(0, 0, 0, 0.5)); }
+  96% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.32), rgba(0, 0, 0, 0.5)); }
+  97% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.3233333333), rgba(0, 0, 0, 0.5)); }
+  98% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.3266666667), rgba(0, 0, 0, 0.5)); }
+  99% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.33), rgba(0, 0, 0, 0.5)); }
+  100% {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0.3333333333), rgba(0, 0, 0, 0.5)); } }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,275 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{% static 'plug/bootstrap-3.3.7/dist/css/bootstrap.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/index.css' %}"/>
+    <script src="{% static 'plug/jquery-3.2.1.js' %}"></script>
+    <script src="{% static 'plug/bootstrap-3.3.7/dist/js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/csrf.js' %}"></script>
+    <script src="{% static 'js/index.js' %}"></script>
+
+</head>
+<body>
+<div id="mask-all"></div>
+<div id="register">
+    <div id="reg1" class=""><p></p></div>
+    <div id="reg2" class=""><p></p></div>
+    <div id="reg3" class=""><p></p></div>
+    <div id="reg4" class=""><p></p></div>
+    <div id="reg5" class=""><p></p></div>
+    <div id="reg6" class=""><p></p></div>
+    <div id="reg7" class=""><p></p></div>
+    <!--blur-parent register-shadow-->
+</div>
+<div id="main">
+    <div id="header-bar">
+        <nav id="head" style="top: 0;">
+            <div id="slipper"></div>
+            <div><a id="home-page">主页</a></div>
+            <div><a id="photo-wall">照片墙</a></div>
+            <div><a id="story-party">故事会</a></div>
+            <div><a id="my-story">我的故事</a></div>
+            <div><a id="friend-condi">好友动态</a></div>
+            <div><a id="setting">设置</a></div>
+            <span><img id="head-search-span" src="{% static 'img/icon_search.png' %}"><input id="head-search" type="text"/></span>
+            <img id="header-bar-img2" src="{% static 'img/icon_edit.png' %}" alt=""/>
+        </nav>
+    </div>
+    <div id="head-down">
+        <div id="sidebar">
+            <div id="search-rem"></div>
+            <p id="nickname">昵称昵称</p>
+            <div id="sidebar-mid">
+                <div id="story-num"><p>210</p><p>故事数</p></div>
+                <div id="photo-num"><p>210</p><p>照片数</p></div>
+                <div id="fri-num" class="mid-reverse"><p>210</p><p>好友数</p></div>
+            </div>
+            <div id="story1">高中物理老师是个魔兽大神。高三那年，他的妻子得了白血病，他天天医院学校两头跑。但上课时从来都是精神饱满，不是班主任偷偷告诉我们，我们还不知道这事。很不幸，他的妻子病重，还是去世了。听说为了治病，老师房子卖了，魔兽账号也卖了好几万。在那之后，有一次课上，老师哭了</div>
+            <div id="story2">昨天做公交车回学校的路上，看到前排的一个女孩扎着马尾，穿着白衬衫，牛仔裤，白色帆布鞋，年轻，干净，整洁，符合一切美好的词汇。突然意识到自己年纪已经不可能在喜欢这样十几岁的女孩子了，看着她甚至出了神，恍惚间从她的身上看到你的脸，像极了当年的你</div>
+            <div id="sidebar-bot">
+                <img id="sidebar-img1" src="{% static '/img/JPEG/andrew-neel-141710.jpg' %}" alt=""/>
+                <img id="sidebar-img2" src="{% static '/img/JPEG/jordan-whitt-54480.jpg' %}" alt=""/>
+            </div>
+        </div>
+        <div id="content">
+            <div id="story">
+                <div id="a1">
+                    <span></span>
+                    <p>永远的分别</p>
+                    <p>当我还是大学狗的时候，在宿舍不停的弹着一首歌，希望她可以听到。4年来，她分了又谈，谈了又分，对于我的追求始终欲拒还迎，但渐渐我也有了自己的女朋友。毕业，她回了她的东北，我回了我的南方，最后她请了我一顿饭，我问她，最爱的人是谁，她说是我，我笑笑没说话。以前唱这歌想哭，现在想笑</p>
+                    <button>More</button>
+                    <span>
+                        <img src="{% static 'img/icon_praise.png' %}" alt=""/>133
+                        <img src="{% static 'img/icon_comment.png' %}" alt=""/>133
+                    </span>
+                </div>
+                <div id="a2">
+                    <span></span>
+                    <p>甜蜜的回忆</p>
+                    <p>上周末，和他一起看完电影。第一次牵手。走出去的时候他就突然牵起我的手，眼睛看向其他地方嘴角的笑意根本藏不住啊。哇真的超紧张心扑通扑通的跳，去洗手在镜子前面不断调整自己。走出去他一把揽住我，少女心泛滥。根本没想到那块木头会这么撩！哈哈哈哈耳朵都红了。我的初恋。</p>
+                    <button>More</button>
+                    <span>
+                        <img src="{% static 'img/icon_praise.png' %}" alt=""/>133
+                        <img src="{% static 'img/icon_comment.png' %}" alt=""/>133
+                    </span>
+                </div>
+                <div id="a3">
+                    <span></span>
+                    <p>鸡汤</p>
+                    <p>那天晚上放晚自习回家，老爸让老妈进去看电视，说要跟我单独谈谈，桌子上放了一晚热热的鸡汤，他说：我这个病（肺癌）不管治不治得好，你以后都要好好跟妈妈生活，不要让她担心，多帮她做点事，我埋着头喝鸡汤，眼泪往汤里面一直流，到现在都还记得那碗汤越喝越咸。不知道现在老爸在天堂还好不~</p>
+                    <button>More</button>
+                    <span>
+                        <img src="{% static 'img/icon_praise.png' %}" alt=""/>133
+                        <img src="{% static 'img/icon_comment.png' %}" alt=""/>133
+                    </span>
+                </div>
+                <div id="a4">
+                    <span></span>
+                    <p>茴香</p>
+                    <p>二十年前，妈割一筐茴香骑车三十多里地，到县城卖四十块钱，再到高中校门口隔着铁栅栏给我三十块当生活费，没说两句话我就赶紧跑回教室上课。永生铭记！那段艰难的日子呀，就是妈维持着一点一点坚持过来的。只希望妈能慢点老，多陪您身边几年！</p>
+                    <button>More</button>
+                    <span>
+                        <img src="{% static 'img/icon_praise.png' %}" alt=""/>133
+                        <img src="{% static 'img/icon_comment.png' %}" alt=""/>133
+                    </span>
+                </div>
+                <div id="a5">
+                    <span></span>
+                    <p>高中时光</p>
+                    <p>青春，高二高三是我人生，青春最美好的时光。 几乎每天都能看到喜欢的人，虽然大都是背影，，为了和学霸考一个学校，每天像打了鸡血，把学霸写的一句话放到课桌边上，一天不知看几遍，，真的很喜欢很喜欢过，第一天遇到你以后，你就每天在我生活里，因为你在我心里，会想，会把做的事和你联系起来。</p>
+                    <button>More</button>
+                    <span>
+                        <img src="{% static 'img/icon_praise.png' %}" alt=""/>133
+                        <img src="{% static 'img/icon_comment.png' %}" alt=""/>133
+                    </span>
+                </div>
+                <div id="a6">
+                    <span></span>
+                    <p>山丘</p>
+                    <p>记得便利店遇到一对年轻父子，小孩听到店内放的《山丘》就问涓滴是什么意思，他爸回答说是指水一点一点的流淌，还教他杜甫一句诗“重露成涓滴，稀星乍有无”。所有的痛苦来源于欲望泛滥，却没能力一一实现的能力。而快乐的源泉也只有一个，那就是知足。所以，快乐和痛苦其实都很简单，只是我们的心，很复杂。</p>
+                    <button>More</button>
+                    <span>
+                        <img src="{% static 'img/icon_praise.png' %}" alt=""/>133
+                        <img src="{% static 'img/icon_comment.png' %}" alt=""/>133
+                    </span>
+                </div>
+                <div id="a7">
+                    <span></span>
+                    <p>外婆</p>
+                    <p>小时候，暑假都要去农村外婆家，外婆背着我踏过麦田坎儿去一口浅井打水洗衣服，井里好多小虾，20多年过去了，她80岁了，得了抑郁症和老年痴呆，再也背不动我了，还好，我能背得动她。</p>
+                    <button>More</button>
+                    <span>
+                        <img src="{% static 'img/icon_praise.png' %}" alt=""/>133
+                        <img src="{% static 'img/icon_comment.png' %}" alt=""/>133
+                    </span>
+                </div>
+            </div>
+            <div id="photo">
+                <div id="b1">
+                    <span></span>
+                    <p>吉姆雷诺</p>
+                    <span>
+                        <img src="{% static 'img/icon_praise.png' %}" alt=""/>133
+                        <img src="{% static 'img/icon_comment.png' %}" alt=""/>133
+                    </span>
+                </div>
+                <div id="b2">
+                    <span></span>
+                    <p>泽拉图</p>
+                    <span>
+                        <img src="{% static 'img/icon_praise.png' %}" alt=""/>133
+                        <img src="{% static 'img/icon_comment.png' %}" alt=""/>133
+                    </span>
+                </div>
+                <div id="b3">
+                    <span></span>
+                    <p>大主教</p>
+                    <span>
+                        <img src="{% static 'img/icon_praise.png' %}" alt=""/>133
+                        <img src="{% static 'img/icon_comment.png' %}" alt=""/>133
+                    </span>
+                </div>
+                <div id="b4">
+                    <span></span>
+                    <p>莱格拉斯</p>
+                    <span>
+                        <img src="{% static 'img/icon_praise.png' %}" alt=""/>133
+                        <img src="{% static 'img/icon_comment.png' %}" alt=""/>133
+                    </span>
+                </div>
+                <div id="b5">
+                    <span></span>
+                    <p>甘道夫</p>
+                    <span>
+                        <img src="{% static 'img/icon_praise.png' %}" alt=""/>133
+                        <img src="{% static 'img/icon_comment.png' %}" alt=""/>133
+                    </span>
+                </div>
+                <div id="b6">
+                    <span></span>
+                    <p>五河琴里</p>
+                    <span>
+                        <img src="{% static 'img/icon_praise.png' %}" alt=""/>133
+                        <img src="{% static 'img/icon_comment.png' %}" alt=""/>133
+                    </span>
+                </div>
+                <div id="b7">
+                    <span></span>
+                    <p>加藤恵</p>
+                    <span>
+                        <img src="{% static 'img/icon_praise.png' %}" alt=""/>133
+                        <img src="{% static 'img/icon_comment.png' %}" alt=""/>133
+                    </span>
+                </div>
+            </div>
+            <div id="name">
+                <div>
+                    <div id="c1"></div>
+                    <p>高坚果</p>
+                </div>
+                <div>
+                    <div id="c2"></div>
+                    <p>特朗普</p>
+                </div>
+                <div>
+                    <div id="c3"></div>
+                    <p>诺娃</p>
+                </div>
+                <div>
+                    <div id="c4"></div>
+                    <p>邦巴迪尔</p>
+                </div>
+                <div>
+                    <div id="c5"></div>
+                    <p>瑟兰迪尔</p>
+                </div>
+                <div>
+                    <div id="c6"></div>
+                    <p>米斯兰迪尔</p>
+                </div>
+                <div>
+                    <div id="c7"></div>
+                    <p>吉姆利</p>
+                </div>
+                <div>
+                    <div id="c8"></div>
+                    <p>阿拉贡</p>
+                </div>
+                <div>
+                    <div id="c9"></div>
+                    <p>巴金斯</p>
+                </div>
+                <div>
+                    <div id="c10"></div>
+                    <p>索隆</p>
+                </div>
+            </div>
+        </div>
+        <div id="blog-border">
+            <div id="blog-border-left">
+                <div id="blog-content">
+                    <p id="blog-title">鸡汤</p>
+                    <div id="blog-out">
+                        <div id="blog-init">那天晚上放晚自习回家，老爸让老妈进去看电视，说要跟我单独谈谈，桌子上放了一晚热热的鸡汤，他说：我这个病（肺癌）不管治不治得好，你以后都要好好跟妈妈生活，不要让她担心，多帮她做点事，我埋着头喝鸡汤，眼泪往汤里面一直流，到现在都还记得那碗汤越喝越咸。不知道现在老爸在天堂还好不~</div>
+                    </div>
+                </div>
+                <div id="blog-comment">
+                    <div id="all-comment">
+                        <p>诺娃：为了帝国！</p>
+                        <p>巴金斯：再见了中土，我将乘船前往阿门洲</p>
+                        <p>米斯兰迪尔：因为心里十分气闷，决定买书去</p>
+                    </div>
+                    <div id="comment-bottom">
+                        <input id="my-comment" placeholder="点击输入评论" type="text"/>
+                    </div>
+                </div>
+            </div>
+            <div id="blog-border-right">
+                <div id="sidebar2">
+                    <div id="search-rem2"></div>
+                    <p id="nickname2">昵称昵称</p>
+                    <div id="sidebar-mid2">
+                        <div id="story-num2"><p>210</p><p>故事数</p></div>
+                        <div id="photo-num2"><p>210</p><p>照片数</p></div>
+                        <div id="fri-num2" class="mid-reverse"><p>210</p><p>好友数</p></div>
+                    </div>
+                    <div id="story3">三年前，高二期中语文考试，作文题目《见证》，写给父亲，登上了校园报，做表彰，兴高采烈地拿回家给父亲看，他不以为然地说道写得不怎么样嘛！当时心里真的不好受，毕竟没有得到他的肯定，后来搬家，父亲把一个盒子特珍惜地抱在怀里，我偷偷打开看了，里面躺着的是那张校园报……</div>
+                    <div id="story4">昨天做公交车回学校的路上，看到前排的一个女孩扎着马尾，穿着白衬衫，牛仔裤，白色帆布鞋，年轻，干净，整洁，符合一切美好的词汇。突然意识到自己年纪已经不可能在喜欢这样十几岁的女孩子了，看着她甚至出了神，恍惚间从她的身上看到你的脸，像极了当年的你，</div>
+                    <div id="sidebar-bot1">
+                        <img id="sidebar-img3" src="{% static '/img/JPEG/3.jpg' %}" alt=""/>
+                        <img id="sidebar-img4" src="{% static '/img/JPEG/ben-rosett-12807.jpg' %}" alt=""/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="footer">
+    <div id="footer-mask"></div>
+    <p>Copyright &copy by Lothlorien Group</p>
+</div>
+</body>
+</html>

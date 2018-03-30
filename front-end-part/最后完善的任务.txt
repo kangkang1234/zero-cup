@@ -1,0 +1,13 @@
+1.非常重要！！login页面“寻忆”两字改成设计的logo   ok
+
+2.边栏的头像 ok
+3.边栏的三个“数”悬停变黑  ok
+4.stories的博文  ok
+5.photos的照片  ok
+6.nickname（好友推荐）变成静态罗列一堆头像 ok
+7.nickname的图片是个链接  ok
+8.点击more之后，加点静态的评论  ok
+9.slipper滑块链接的cursor、edit的cursor改成pointer ok
+
+###----尽量做----###
+10.签到板按照康康给的效果，和我写的需求文档 

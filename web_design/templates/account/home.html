@@ -1,0 +1,73 @@
+{% load static %}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+
+    <script src="{% static 'js/jquery-3.2.1.js' %}"></script>
+    <script src="{% static 'js/csrf.js' %}"></script>
+    <script src="{% static 'js/login.js' %}"></script>
+
+
+</head>
+<body>
+<div id="main" class="enter main-bg1">
+    <div id="mask" class="none"></div>
+    <form action="" id="loginFrom">
+        {% csrf_token %}
+        <div id="login" class="login-sign-up log-1">
+            <h2>登录</h2>
+        <span><input type="text" name="username" placeholder="请输入你的手机号码"/>
+            <hr/>
+        </span>
+        <span><input type="password" name="password" placeholder="请输入你的账号密码"/>
+            <hr/>
+        </span>
+            <button class="button" id="login-bu">登录</button>
+            <div id="login-footer">
+                <div></div><div id="log-sign-up">注册</div><div></div>
+            </div>
+        </div>
+    </form>
+    <form action="" id="signUpForm">
+        {% csrf_token %}
+        <div id="sign-up" class="login-sign-up none">
+            <h2>注册</h2>
+        <span><input id="tel" type="text" name="tel" placeholder="请输入你的手机号码"/>
+            <hr/>
+        </span>
+            <button id="getIdCode" class="button">点击获取验证码</button>
+        <span><input id="idCodeInput" name="idCode" type="text" placeholder="请输入你的验证码"/>
+            <hr id="idCodeHr"/>
+        </span>
+        <span><input id="pass" type="password" name="password" placeholder="请输入你的账号密码"/>
+            <hr/>
+        </span>
+            <button class="button" id="sign-up-bu">注册</button>
+        </div>
+    </form>
+    <!--<div id="mask-login"></div>-->
+    <span id="heading"><img src="{% static 'img/寻忆.png' %}" alt=""/></span>
+    <span id="subHeading">每一个有故事的人都值得被倾听</span>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("inputEmail").blur(function(){
+            $.ajax({
+                type: 'POST',
+                url: url,
+                data: {inputEmail:$("#inputEmail").val()},
+                async: true,
+                success:function(data){
+                if (data==0) {
+                    alert("用户名已存在")
+                }
+            }
+        });
+    });
+    });
+</script>

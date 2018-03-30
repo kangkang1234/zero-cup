@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        #contain{
+            position: relative;
+            top: 200px;
+            width: 1000px;
+            height: 50px;
+            left: 200px;
+        }
+        #contain>div{
+            position: absolute;;
+            margin:2px;
+            background-color: #00CCFF;
+            width: 30px;
+            height: 45px;
+            transition: top .5s ease,left .5s ease;
+        }
+        #a1{
+            top: 0;
+            left: 0;
+        }
+        #a2{
+            top: 0;
+            left: 34px;
+        }
+        #a3{
+            top:0;
+            left: 68px;
+        }
+        #a4{
+            top: -5px;
+            left: 102px;
+        }
+        #a5{
+            top: 0;
+            left: 136px;
+        }
+        #a6{
+            top: 0;
+            left: 170px;
+        }
+        #a7{
+            top: 0;
+            left: 204px;
+        }
+    </style>
+</head>
+<body>
+<div id="contain">
+    <div id="a1"></div>
+    <div id="a2"></div>
+    <div id="a3"></div>
+    <div id="a4"></div>
+    <div id="a5"></div>
+    <div id="a6"></div>
+    <div id="a7"></div>
+</div>
+<script>
+    window.onload = function(){
+        var m = document.getElementById("contain").getElementsByTagName("DIV");
+        console.log(m);
+        var handler1 = function(){
+            m[2].style.left = "102px";
+            m[2].style.top = "-5px";
+            m[3].style.left = "136px";
+            m[3].style.top = "0";
+            m[0].style.left = "34px";
+            m[1].style.left = "68px";
+            m[4].style.left = "170px";
+            m[5].style.left = "204px";
+            m[6].style.left ="238px";
+            var first = document.createElement("div");
+            var contain = document.getElementById("contain");
+            first.setAttribute("id","a0");
+            contain.insertBefore(first,m[0]);
+            m[7].parentNode.removeChild(m[7]);
+            for(var i=0;i<7;i++){
+                m[i].setAttribute("id",m[i].id[0]+(+m[i].id[1]+1))
+            }
+            m[3].removeEventListener("click",handler1);
+            m[2].addEventListener("click",handler1);
+            m[5].removeEventListener("click",handler2);
+            m[4].addEventListener("click",handler2);
+        };
+        m[2].addEventListener("click",handler1);
+        var handler2 = function(){
+            m[4].style.left = "102px";
+            m[4].style.top = "-5px";
+            m[3].style.left = "68px";
+            m[3].style.top = "0";
+            m[6].style.left = "170px";
+            m[5].style.left = "136px";
+            m[2].style.left = "34px";
+            m[1].style.left = "0px";
+            m[0].style.left ="-34px";
+            var last = document.createElement("div");
+            var contain = document.getElementById("contain");
+            last.setAttribute("id","a8");
+            contain.appendChild(last);
+            m[0].parentNode.removeChild(m[0]);
+            for(var i=0;i<7;i++){
+                m[i].setAttribute("id",m[i].id[0]+(+m[i].id[1]-1))
+            }
+            m[3].removeEventListener("click",handler2);
+            m[4].addEventListener("click",handler2);
+            m[1].removeEventListener("click",handler1);
+            m[2].addEventListener("click",handler1);
+        };
+        m[4].addEventListener("click",handler2);
+    };
+
+
+    //            setTimeout(function(){
+    //                m.forEach(function(item){
+    //                    item.style.transition = "none";
+    //                });
+    //                setTimeout(function(){
+    //                    contain.insertBefore(first,m[0]);
+    //                },500)
+    //            },500)
+//    m[2].style.left = "102px";
+//    m[2].style.top = "-5px";
+//    m[3].style.left = "136px";
+//    m[3].style.top = "0";
+//    m[0].style.left = "34px";
+//    m[1].style.left = "68px";
+//    m[4].style.left = "170px";
+//    m[5].style.left = "204px";
+//    m[6].style.left ="238px";
+//    var first = document.createElement("div");
+//    var contain = document.getElementById("contain");
+//    first.setAttribute("id","a0");
+//    contain.insertBefore(first,m[0]);
+//    m[7].parentNode.removeChild(m[7]);
+//    console.log(m);
+//    console.log(m[2]);
+</script>
+</body>
+</html>

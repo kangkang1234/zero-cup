@@ -1,0 +1,7 @@
+Django==1.11.7
+django-haystack==2.6.1
+jieba==0.39
+pycrypto==2.6.1
+PyMySQL==0.7.11
+pytz==2017.3
+Whoosh==2.7.4
